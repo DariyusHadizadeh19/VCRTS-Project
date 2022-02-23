@@ -55,7 +55,7 @@ public ViewJobsFrame() throws FileNotFoundException {
 	
 	
 	/**
-	 * Create list format for jobs
+	 * create the list from text file
 	 */
 	
 	try {
