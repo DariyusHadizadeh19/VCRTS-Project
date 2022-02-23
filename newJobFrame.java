@@ -135,6 +135,7 @@ public newJobFrame() {
 	
 	deadlineField = new JTextField();
 	deadlineField.setBounds(250, 261, 157, 19);
+	deadlineField.setDocument(new textLimit(10));
 	layeredPane.add(deadlineField);
 	deadlineField.setColumns(10);
 	
